@@ -1,0 +1,86 @@
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+	background-color:black;
+}
+
+.card{
+	background-color: white;
+	max-width: 800px;
+	width: 100%;
+	height: 400px;
+	margin: 0 auto;
+	margin-top: 50px;
+	border-radius: 16px;
+	overflow: hidden;
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+}
+
+img{
+	width:350px;
+}
+
+.contanir{
+	padding: 30px;
+	
+}
+.title{
+	display: flex;
+	justify-content: space-between;
+}
+
+.price{
+	color: gray;
+}
+
+.product{
+	margin-top: 24px;
+}
+
+.product nav{
+	display:flex;
+	gap: 10px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.product h4{
+	font-size: 20px;
+}
+
+.product nav button, .pakage button{
+	padding: 20px;
+	border: none;
+	border-radius:8px;
+	background: transparent;
+}
+
+.product nav button.first, .pakage .buy-now{
+	background: black;
+	color:white;
+}
+
+.pakage{
+	display: flex;
+	justify-content: space-between;
+	margin-top:30px;
+	margin-bottom: 30px;
+}
+
+.pakage button{
+	border: 1px solid gray;
+}
+
+.pakage .buy-now{
+	margin-right: 16px;
+}
+
+p{
+	font-size:20px;
+}
+
